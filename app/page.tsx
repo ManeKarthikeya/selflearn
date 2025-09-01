@@ -37,4 +37,7 @@ const Page = async () => {
   )
 }
 
+// Add this export to force dynamic rendering
+export const dynamic = 'force-dynamic';
+
 export default Page
